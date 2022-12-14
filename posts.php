@@ -2,6 +2,11 @@
 <?php include "header.php"; ?>
 
 
+<main role="main" class="container">
+
+    <div class="row">
+
+
 <div class="blog-post">
                 <h2 class="blog-post-title">Sample blog post</h2>
                 <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
@@ -60,6 +65,10 @@
                 <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
                 <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
             </div><!-- /.blog-post -->
+
+        <div class="col-sm-8 blog-main">
+
+
 
 <?php include "sidebar.php"; ?>
 
