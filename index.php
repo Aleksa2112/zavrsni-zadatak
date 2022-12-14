@@ -16,37 +16,13 @@
 
     <!-- Custom styles for this template -->
     <link href="styles/blog.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
 </head>
 
+
+<?php include "posts.php"; ?>
+
+
 <body>
-
-
-
-        <!-- sve postove sam prebacio u psts.php-->
-
-        <!-- a treba cu verovatno i izlistati sve postove>
-
-
-            <nav class="blog-pagination">
-                <a class="btn btn-outline-primary" href="#">Older</a>
-                <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
-            </nav>
-
-        </div><!-- /.blog-main -->
-
-
-        <!-- treba sad da ubacim u footer pomocu includa-->
-
-        <?php include "sidebar.php"; ?>
-
-        
-
-    </div><!-- /.row -->
-
-</main><!-- /.container -->
-
-
-
-
 </body>
 </html>
