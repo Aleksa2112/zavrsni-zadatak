@@ -5,7 +5,7 @@
 
     $select_posts_from_db = "SELECT * FROM posts";
     $posts_from_db = fetchData($connection, $select_posts_from_db, true);
-dump($posts_from_db);
+//dump($posts_from_db);
 
     ?> <div class="col-sm-8 blog-main">
     <div class="blog-post">
